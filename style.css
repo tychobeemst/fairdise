@@ -61,15 +61,17 @@ nav {
 
 #menuToggle
 {
-  display: block;
+  
   position: relative;
   top: 50px;
   left: 50px;
-  
+  display: inline-block;
   z-index: 1;
   
   -webkit-user-select: none;
   user-select: none;
+ 
+
 }
 
 #menuToggle input
@@ -185,6 +187,7 @@ nav {
 #menuToggle input:checked ~ ul
 {
   transform: none;
+
 }
 .specialiteiten{
 	text-align: center;
@@ -292,15 +295,7 @@ font-size: 12px;
 }
 
 
-.slideshow1{
-	text-align: center;
-}
-.slideshow2{
-	text-align: center;
-}
-.slideshow3{
-	text-align: center;
-}
+
 .shop-nu{
 	display: inline;
     text-align: right;
